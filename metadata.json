@@ -2,5 +2,4 @@
   "name": "Nateev",
   "description": "Pro native camera app with manual controls, AGSL cinematic LUTs, focus peaking, and on-device optical intelligence.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
