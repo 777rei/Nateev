@@ -12,9 +12,7 @@ import kotlin.math.roundToInt
 object StabilizationEngine {
 
     /**
-     * Performs software multi-frame alignment and stacking (Super Steady Handheld HDR+ / Anti-Jitter).
-     * Takes a list of burst Bitmaps, estimates motion shifts relative to the reference frame,
-     * aligns them to sub-pixel precision, and averages them to completely cancel hand shake.
+     * Stabilization 
      */
     suspend fun alignAndStackFrames(frames: List<Bitmap>): Bitmap = withContext(Dispatchers.Default) {
         if (frames.isEmpty()) throw IllegalArgumentException("No frames provided for stabilization stacking")
@@ -52,7 +50,7 @@ object StabilizationEngine {
                 continue
             }
 
-            // Align full-res frame using matrix translation & crop border padding
+            // Align full-res frame using matrix translation & crop border padding and heading
             val alignedBitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
             val canvas = Canvas(alignedBitmap)
             val matrix = Matrix().apply { setTranslate(dx, dy) }
