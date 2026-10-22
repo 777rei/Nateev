@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Camera Body Outline -->
+    <path
+        android:fillColor="#FF252830"
+        android:strokeColor="#FF3A3F4D"
+        android:strokeWidth="1.5"
+        android:pathData="M32,38 h12 l4,-6 h12 l4,6 h12 c3.3,0 6,2.7 6,6 v26 c0,3.3 -2.7,6 -6,6 H32 c-3.3,0 -6,-2.7 -6,-6 V44 c0,-3.3 2.7,-6 6,-6 z" />
+    
+    <!-- Shutter button accent in gold -->
+    <path
+        android:fillColor="#FFFFD54F"
+        android:pathData="M33,35 h8 v3 h-8 z" />
+
+    <!-- Flash / Viewfinder dot -->
+    <path
+        android:fillColor="#FF81C784"
+        android:pathData="M71,43 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+
+    <!-- Outer Lens Ring -->
+    <path
+        android:fillColor="#FF181A20"
+        android:strokeColor="#FFFFD54F"
+        android:strokeWidth="2.0"
+        android:pathData="M54,58m-17,0a17,17 0 1,0 34,0a17,17 0 1,0 -34,0" />
+
+    <!-- Inner Glass Lens -->
+    <path
+        android:fillColor="#FF21242C"
+        android:strokeColor="#FF00E676"
+        android:strokeWidth="1.2"
+        android:pathData="M54,58m-11,0a11,11 0 1,0 22,0a11,11 0 1,0 -22,0" />
+
+    <!-- Aperture Core & Lens Reflection -->
+    <path
+        android:fillColor="#FFFFD54F"
+        android:pathData="M54,58m-5,0a5,5 0 1,0 10,0a5,5 0 1,0 -10,0" />
+
+    <path
+        android:fillColor="#55FFFFFF"
+        android:pathData="M51,53 a3,3 0 0,1 4,-2 a3,3 0 0,0 -4,2 z" />
+</vector>
