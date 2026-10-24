@@ -62,7 +62,7 @@ Nateev Camera is a professional-grade, offline-first photography and cinematic f
 - **Full Sensor Readout (12MP–50MP):** Zero downscaling. Uses `ResolutionSelector` with `HIGHEST_AVAILABLE_STRATEGY` to utilize the physical camera's full raw resolution matrix.
 - **Master Quality JPEG (100% Quality):** Configured with `ImageCapture.CAPTURE_MODE_MAXIMIZE_QUALITY` and uncompressed 100% JPEG compression format. Delivers maximum clarity and dynamic range for large prints.
 - **Hardware-Synchronized Video LUT SurfaceProcessor:** Implements an OpenGL ES `CameraEffect` bound simultaneously to `PREVIEW` and `VIDEO_CAPTURE`. What you see on the live viewfinder is rendered with the identical color matrix into the final recorded video file, ensuring zero discrepancy between monitor and export.
-- **Root APK Distribution:** Standalone binary `Nateev-Pro-v2.1.1-rc.apk` compiled and available in the Release.
+- **APK Distribution:** Standalone binary `Nateev-Pro-v2.1.1-rc.apk` compiled and available in the Release.
 
 ---
 
